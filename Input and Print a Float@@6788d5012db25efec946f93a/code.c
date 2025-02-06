@@ -11,8 +11,7 @@
 
 int main () {
     float a;
-    printf("enter a number: \n")
-    scanf("%f", &a);
-    printf("the number is: %f \n", a );
-    
+    printf("enter a number:\n")
+    scanf("%f",&a);
+    printf("the float number is:%f",a);
 }
