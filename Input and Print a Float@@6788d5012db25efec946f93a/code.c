@@ -12,6 +12,6 @@
 int main () {
     float a=3.14;
     printf("the number is: %f \n", &a );
-    scanf("%f", &a);
+    scanf("%f", a);
     
 }
