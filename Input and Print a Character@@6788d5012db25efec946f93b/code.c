@@ -10,8 +10,8 @@
 // }
 
 int main() {
-    char A;
-    printf("a single character:\n");
-    scanf("%c" &A);
-    printf("entered number is :" A);
+    char ch;
+    printf("a single char:\n");
+    scanf("%c" &ch);
+    printf("entered number is :", A);
 }
