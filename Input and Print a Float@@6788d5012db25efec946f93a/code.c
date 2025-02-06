@@ -13,5 +13,5 @@ int main () {
     float a;
     printf("enter a number:\n");
     scanf("%f",&a);
-    printf("the float number is:%f",a);
+    printf("the float number is:%f",a=3.14);
 }
