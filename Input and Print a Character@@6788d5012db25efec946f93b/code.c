@@ -13,5 +13,5 @@ int main() {
     char ch;
     printf("a single char:\n");
     scanf("%c" &ch);
-    printf("entered number is :", A);
+    printf("%c\n", ch);
 }
