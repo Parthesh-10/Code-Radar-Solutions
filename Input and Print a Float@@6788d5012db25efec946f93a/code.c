@@ -10,8 +10,8 @@
 // } 
 
 int main () {
-    float a ;
-    printf("enter a numbr:\n");
+    float a=3.14;
+    
     scanf("%f", &a);
     printf("the number is: %f \n", &a );
 }
