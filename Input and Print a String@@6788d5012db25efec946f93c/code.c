@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main () {
-    char str[20];
+    char str[hello];
     printf("You entered: ");
     scanf("%s", &str);
     printf("%s", str);
