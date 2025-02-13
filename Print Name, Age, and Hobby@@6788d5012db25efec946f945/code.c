@@ -8,9 +8,9 @@ int main(){
     printf(" Name: \n Age: \n Hobby: ");
     scanf(" %s %d %s" ,&name,&age,&hobby);
     
-    printf("%s", name);
-    printf("%d", age);
-    printf("%s", hobby);
+    printf("%s"\n, name);
+    printf("%d"\n, age);
+    printf("%s"\n, hobby);
 
     return 0;
 }
