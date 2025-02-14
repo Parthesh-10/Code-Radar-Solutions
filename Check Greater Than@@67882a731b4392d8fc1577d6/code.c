@@ -5,9 +5,9 @@ int main(){
 
     if(a>b){
         printf("True");
-    else{
+    else(
             printf("False");
-        }
+    )
     }
     return 0 ;
 }
