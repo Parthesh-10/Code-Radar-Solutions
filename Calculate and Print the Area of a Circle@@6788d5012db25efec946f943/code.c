@@ -3,9 +3,9 @@
 int main(){
     float r,pie = 3.14;
     printf("Area: ");
-    scanf("%d", &r);
+    scanf("%f", &r);
     float area = pie*(r*r);
-    printf("%d", area);
+    printf("%f", area);
     return 0 ;
 
 }
