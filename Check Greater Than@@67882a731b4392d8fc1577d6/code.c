@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int a = 2, b = 7;
+    int a , b;
+    scanf("%d %d", &a,&b)
     if(a>b){
         printf("True");
     }
