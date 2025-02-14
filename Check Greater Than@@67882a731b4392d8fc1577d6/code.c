@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a = 6, b = 7;
+    int a = 2, b = 7;
     if(a>b){
         printf("True");
     }
