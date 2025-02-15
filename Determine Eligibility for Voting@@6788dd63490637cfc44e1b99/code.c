@@ -7,6 +7,6 @@
         printf("Not Eligible");
     }
     else{
-        printf("Eligible")
+        printf("Eligible");
     }
  }
