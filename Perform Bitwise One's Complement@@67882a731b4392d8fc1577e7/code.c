@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
-    scanf("%d %d", &a,&b);
-    int sum = a~b;
+    int b;
+    scanf("%d ",&b);
+    int sum = ~b;
     printf("%d", sum);
     return 0;
 }
