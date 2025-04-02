@@ -1,7 +1,6 @@
 // Your code here...
 int main(){
     int n;
-    // printf("");
     scanf("%d", &n);
     if(n<0){
         printf("Negative");
@@ -10,7 +9,7 @@ int main(){
         printf("Positive");
     }
     else{
-        printf("Zero")
+        printf("Zero");
     }
     return 0 ;
 }
