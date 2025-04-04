@@ -7,20 +7,20 @@ int main(){
     if(n<=1){
         count = 1;
     }
-    for(int i = 2;i*i<=n;i++){
+    for(int i = 2;i<=n/2;i++){
         if(n%i==0){
-            count = 1;
+            count++;
         }
         else{
-            count = 2;
+            count == 2;
         }
         
     }
-    if(count < 2){
-        printf("Prime");
+    if(count >=2){
+        printf("Not Prime");
     }
     else{
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0 ;
 }
