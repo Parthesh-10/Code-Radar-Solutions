@@ -5,7 +5,10 @@ int main(){
     int n,i = 0;
     scanf("%d", &n);
     for(int a = 2;a <=n;a++){
-        i = 1;
+        if(n%i == 0){
+i = 1;
+        }
+        
     }
     if(i == 0){
         printf("Prime");
