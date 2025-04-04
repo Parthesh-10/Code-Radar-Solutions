@@ -9,7 +9,7 @@ int main(){
     }
     else{
         for(int i = 2;i<=n;i++){
-            if((n/2)%i==0){
+            if(n/2%i==0){
                 printf("Prime");
             }
             // else{
