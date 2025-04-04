@@ -10,7 +10,7 @@ int main(){
         printf("Not Eligible");
     }
      else if (x>=18 && y == 0){
-        printf("Not Eligible")
+        printf("Not Eligible");
     }
     else{
         printf("Eligible");
