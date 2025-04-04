@@ -20,7 +20,7 @@ int main(){
         printf("%d", mul);
     }
     else if(op == '/'){
-        if(y!=o){
+        if(y!=0){
             int div = x/y;
         printf("%d", div);
         }
