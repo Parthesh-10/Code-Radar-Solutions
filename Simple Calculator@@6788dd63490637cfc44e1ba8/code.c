@@ -4,9 +4,8 @@
 int main(){
     int x,y;
     char op;
-    scanf("%d", &x);
-    scanf("%d", &y);
-    scanf("%c", &op);
+    scanf("%d, %d ,%c", &x,&y,&op);
+    
 
     if(op == '+'){
         int sum = x+y;
