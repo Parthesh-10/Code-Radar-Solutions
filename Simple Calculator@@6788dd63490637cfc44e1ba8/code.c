@@ -23,7 +23,7 @@ int main(){
         int div = x-y;
         printf("%d", div);
     }
-    else{
-        printf("error");
-    }
+    // else{
+    //     printf("error");
+    // }
 }
