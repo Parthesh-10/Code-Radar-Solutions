@@ -12,9 +12,7 @@ int main(){
             if(n/2%i==0){
                 printf("Prime");
             }
-            // else{
-            //     printf("Not Prime");
-            // }
+            break;
         }
         
     }
