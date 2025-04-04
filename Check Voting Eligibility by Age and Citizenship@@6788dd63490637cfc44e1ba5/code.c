@@ -6,10 +6,10 @@ int main(){
     if(x<18 && y == 0){
         printf("Not Eligible");
     }
-    if else(x<18 && y == 1){
+    else if(x<18 && y == 1){
         printf("Not Eligible");
     }
-    if else(x>=18 && y == 0){
+     else if (x>=18 && y == 0){
         printf("Not Eligible")
     }
     else{
