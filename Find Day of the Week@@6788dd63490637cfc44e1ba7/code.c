@@ -3,7 +3,7 @@
 
 int main() {
     int day;
-    printf("Enter day number (1-7): ");
+   
     scanf("%d", &day);
 
     switch (day) {
