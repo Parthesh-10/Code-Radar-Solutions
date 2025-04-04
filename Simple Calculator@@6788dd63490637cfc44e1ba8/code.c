@@ -16,11 +16,11 @@ int main(){
         printf("%d", sub);
     }
     else if(op == '*'){
-        int mul = x-y;
+        int mul = x*y;
         printf("%d", mul);
     }
     else if(op == '/'){
-        int div = x-y;
+        int div = x/y;
         printf("%d", div);
     }
     else{
