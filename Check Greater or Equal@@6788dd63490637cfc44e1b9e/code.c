@@ -6,7 +6,7 @@ int main(){
     int m;
     scanf("%d,%d",&n,&m);
 
-    if(n>=m){
+    if(n >= m){
         printf("Yes");
     }
     else{
