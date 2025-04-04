@@ -9,19 +9,19 @@ int main(){
     scanf("%c", &op);
 
     if(op == '+'){
-        sum = x+y;
+        int sum = x+y;
         printf("%d", sum);
     }
     else if(op == '-'){
-        sub = x-y;
+        int sub = x-y;
         printf("%d", sub);
     }
     else if(op == '*'){
-        mul = x-y;
+        int mul = x-y;
         printf("%d", mul);
     }
     else if(op == '/'){
-        div = x-y;
+        int  div = x-y;
         printf("%d", div);
     }
     else{
