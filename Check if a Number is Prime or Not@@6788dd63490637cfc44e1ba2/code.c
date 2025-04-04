@@ -3,7 +3,7 @@
 int main(){
     int n,i = 0;
     scanf("%d", &n);
-    for(int a = 2;a <=n;a++){
+    for(int a = 2;a <=n-1;a++){
         if(n%i == 0){
             i = 1;
         }
