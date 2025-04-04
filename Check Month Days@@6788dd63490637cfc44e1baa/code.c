@@ -4,7 +4,7 @@
 int main() {
     int month;
 
-    printf("Enter month number (1-12): ");
+   
     scanf("%d", &month);
 
     switch (month) {
@@ -15,22 +15,22 @@ int main() {
         case 8:
         case 10:
         case 12:
-            printf("31 days\n");
+            printf("31 \n");
             break;
 
         case 4:
         case 6:
         case 9:
         case 11:
-            printf("30 days\n");
+            printf("30 \n");
             break;
 
         case 2:
-            printf("28 or 29 days (depending on leap year)\n");
+            printf("28\n");
             break;
 
         default:
-            printf("Invalid month number\n");
+            printf("Invalid month\n");
     }
 
     return 0;
