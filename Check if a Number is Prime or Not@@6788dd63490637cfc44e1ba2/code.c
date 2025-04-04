@@ -6,6 +6,7 @@ int main(){
     for(int a = 2;a <=n-1;a++){
         if(n%i == 0){
             i = 1;
+            break;
         }
     }
     if(i == 0){
