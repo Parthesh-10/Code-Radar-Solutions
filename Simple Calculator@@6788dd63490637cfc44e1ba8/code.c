@@ -4,7 +4,7 @@
 int main(){
     int x,y;
     char op;
-    scanf("%d, %d ,%c", &x,&y,&op);
+    scanf("%d %d %c", &x,&y,&op);
     
 
     if(op == '+'){
@@ -23,7 +23,7 @@ int main(){
         int div = x-y;
         printf("%d", div);
     }
-    // else{
-    //     printf("error");
-    // }
+    else{
+        printf("error");
+    }
 }
